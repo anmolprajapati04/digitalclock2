@@ -1,0 +1,25 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e; /* Darker background for contrast */
+}
+
+.clock {
+    font-family: 'Courier New', monospace; /* Switch to a monospaced font for a digital look */
+    font-size: 6rem; /* Larger font size for prominence */
+    color: #ff6347; /* Tomato red color for a vibrant feel */
+    text-shadow: 4px 4px 20px rgba(255, 99, 71, 0.4); /* More intense shadow */
+    border: none; /* Remove the border for a cleaner design */
+    padding: 30px; /* Increase padding for a spacious feel */
+    border-radius: 50%; /* Circular shape for the clock */
+    background: linear-gradient(135deg, rgba(255, 99, 71, 0.2), rgba(255, 255, 255, 0.1)); /* Gradient background */
+    box-shadow: 0 0 30px rgba(255, 99, 71, 0.4); /* Add a glow effect */
+    transition: transform 0.3s ease; /* Smooth zoom-in effect on hover */
+}
+
+.clock:hover {
+    transform: scale(1.1); /* Slightly zoom the clock on hover */
+    background: linear-gradient(135deg, rgba(255, 99, 71, 0.3), rgba(255, 255, 255, 0.15)); /* Enhanced gradient on hover */
+}
